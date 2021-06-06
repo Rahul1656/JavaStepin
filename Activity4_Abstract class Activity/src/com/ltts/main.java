@@ -4,13 +4,13 @@ public class main {
 
 	public static void main(String[] args) 
 	{
-		int ch;
+		String ch;
 		int radius,side;
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Circle\nSquare");
 		System.out.println("Enter the shape");
-		ch=sc.nextInt();
-		if(ch==1)
+		ch=sc.next();
+		if(ch.equals("Circle"))
 		{
 		System.out.println("Enter the radius");
 		radius=sc.nextInt();
